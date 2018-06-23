@@ -82,13 +82,13 @@ session_start();
 				<ul class="menu">
 					<li <?php echo ($page_title == 'Index') ? 'class="active"' : ''; ?>><a href="index.php">HOME<span class="arrow"></span></a>
 					</li>
-					<li><a href="about.php">About Us</a></li>
-					<li><a href="ourServices.php">Our Services<span class="arrow"></span></a>
-					<li><a href="faq.php">FAQs</a></li>
-					<li><a href="blog.php">Blog<span class="arrow"></span></a>
+					<li <?php echo ($page_title == 'About Us') ? 'class="active"' : ''; ?>><a href="about.php">About Us</a></li>
+					<li <?php echo ($page_title == 'Services') ? 'class="active"' : ''; ?>><a href="ourServices.php">Our Services<span class="arrow"></span></a>
+					<li <?php echo ($page_title == 'FAQ') ? 'class="active"' : ''; ?>><a href="faq.php">FAQs</a></li>
+					<li <?php echo ($page_title == 'Blog') ? 'class="active"' : ''; ?>><a href="blog.php">Blog<span class="arrow"></span></a>
 					</li>
-					<li><a href="testimonials.php">Testimonials</a></li>
-					<li><a href="contact.php">Contacts</a></li>
+					<li <?php echo ($page_title == 'Testimonials') ? 'class="active"' : ''; ?>><a href="testimonials.php">Testimonials</a></li>
+					<li <?php echo ($page_title == 'Contact') ? 'class="active"' : ''; ?>><a href="contact.php">Contacts</a></li>
 <?php
 if(!empty($_SESSION['userid'])) {
 ?>	
