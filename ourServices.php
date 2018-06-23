@@ -152,7 +152,7 @@
 					</div>
 				<div class="text-center visible-xs">
 					<div class="divider"></div>
-					<a href="#" class="all-view" data-show-xs="collapse-col"><span>All Services</span></a>
+					<a class="all-view" data-show-xs="collapse-col"><span>All Services</span></a>
 				</div>
 		</div>
 	</div>
@@ -186,8 +186,8 @@
 				<h2 class="text-center h-lg h-decor">We are members of:</h2>
 				<div class="brand-carousel">
 					<a href="http://www.fortmcmurraychamber.ca"><img src="images/content/brand-img-1.png" alt=""></a>
-					<a href="#"><img src="images/content/brand-img-2.png" alt=""></a>
-					<a href="#"><img src="images/content/brand-img-3.png" alt=""></a>
+					<a><img src="images/content/brand-img-2.png" alt=""></a>
+					<a><img src="images/content/brand-img-3.png" alt=""></a>
 					
 				</div>
 			</div>
