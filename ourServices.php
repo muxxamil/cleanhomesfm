@@ -23,7 +23,7 @@
 			<p class="text-center">Choose us because of our reputation for excellence. For more than 2 years, we've earned a name for quality and customer service. The homeowners we serve rely on us for detail-oriented, consistent cleaning services, every single time we clean their homes.</p>
 			<div class="row services-grid services-mobile-carousel">
 				<div class="col-xs-6 col-sm-6 col-md-4 service-box">
-					<a href="service-page-1.php" class="service-box-img">
+					<a class="service-box-img">
 						<img src="images/content/service-img-1.jpg" alt="Service">
 					</a>
 					<h3 class="service-box-title">Condo / Apartment Cleaning</h3>
@@ -33,7 +33,7 @@
 					
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-4 service-box">
-					<a href="service-page-2.php" class="service-box-img">
+					<a class="service-box-img">
 						<img src="images/content/service-img-2.jpg" alt="Service">
 					</a>
 					<h3 class="service-box-title">House Cleaning</h3>
@@ -43,7 +43,7 @@
 				
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-4 service-box">
-					<a href="service-page-3.php" class="service-box-img">
+					<a class="service-box-img">
 						<img src="images/content/service-img-3.jpg" alt="Service">
 					</a>
 					<h3 class="service-box-title">Move In / Move Out</h3>
@@ -54,7 +54,7 @@
 				</div>
 				
 				<div class="col-xs-6 col-sm-6 col-md-4 service-box">
-					<a href="service-page-5.php" class="service-box-img">
+					<a class="service-box-img">
 						<img src="images/content/service-img-5.jpg" alt="Service">
 					</a>
 					<h3 class="service-box-title">Construction Cleaning</h3>
@@ -65,7 +65,7 @@
 				</div>
 				
 				<div class="col-xs-6 col-sm-6 col-md-4 service-box">
-					<a href="service-page-8.php" class="service-box-img">
+					<a class="service-box-img">
 						<img src="images/content/service-img-8.jpg" alt="Service">
 					</a>
 					<h3 class="service-box-title">Carpet Cleaning</h3>
@@ -75,7 +75,7 @@
 					
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-4 service-box">
-					<a href="service-page-9.php" class="service-box-img">
+					<a class="service-box-img">
 						<img src="images/content/service-img-9.jpg" alt="Service">
 					</a>
 					<h3 class="service-box-title">Commercial Cleaning</h3>
