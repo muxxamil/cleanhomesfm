@@ -1,6 +1,6 @@
 <?php
 	
-	$page_title = "Blog";
+	$page_title = "Blog Single";
 	include("header.php");
 	include_once('defaults/config.php');
 	include("controllers/get-posts.php");
