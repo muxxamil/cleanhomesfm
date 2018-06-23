@@ -29,9 +29,8 @@
 	}
 
 ?>
-			<div class="blog-isotope">
-				<input type="hidden" id="pageNumber" name="pageNumber" value="1">
-				<div id = "postResultBox"></div>
+			<input type="hidden" id="pageNumber" name="pageNumber" value="1">
+			<div class="blog-isotope" id = "postResultBox">
 			</div>
 		</div>
 	</div>
