@@ -1,6 +1,6 @@
 <?php
 
-include_once('../defaults/config.php');
+include_once('defaults/config.php');
 
 $offset = 0;
 $limit 	= 2;

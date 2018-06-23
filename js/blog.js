@@ -6,21 +6,21 @@ $(document).ready(function () {
                 videoBlogForm: $('#videoBlogForm'),
             };
 
-	getBlogPosts(pageNo);
+	// getBlogPosts(pageNo);
 
-	function getBlogPosts(pageNo) {
-		pageNo = (pageNo && pageNo != 0) ? pageNo : 1;
-		$.ajax({    //create an ajax request to display.php
-            type: "GET",
-            url: "tpl/blog-list.tpl.php", 
-            data: "pageNumber=" + pageNo,            
-            dataType: "html",   //expect html to be returned                
-            success: function(response){                    
-                $("#postResultBox").html(response); 
-            }
+	// function getBlogPosts(pageNo) {
+	// 	pageNo = (pageNo && pageNo != 0) ? pageNo : 1;
+	// 	$.ajax({    //create an ajax request to display.php
+ //            type: "GET",
+ //            url: "tpl/blog-list.tpl.php", 
+ //            data: "pageNumber=" + pageNo,            
+ //            dataType: "html",   //expect html to be returned                
+ //            success: function(response){                    
+ //                $("#postResultBox").html(response); 
+ //            }
 
-        });
-	}
+ //        });
+	// }
 
     // blog page form
     if (forms.textBlogForm.length) {

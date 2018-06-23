@@ -6150,7 +6150,7 @@ body.is-loaded .page-header .logo img {
     margin-top: 20px;
   }
   .blog-isotope > *:not(:first-child) {
-    margin-top: 12px;
+    /*margin-top: 12px;*/
   }
 }
 /*-----  4.2 Shop Pages          --------*/

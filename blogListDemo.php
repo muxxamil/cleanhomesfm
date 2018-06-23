@@ -31,6 +31,11 @@
 ?>
 			<input type="hidden" id="pageNumber" name="pageNumber" value="1">
 			<div class="blog-isotope" id = "postResultBox">
+
+<?php
+	include('tpl/blog-list.tpl.php');
+?>
+
 			</div>
 		</div>
 	</div>

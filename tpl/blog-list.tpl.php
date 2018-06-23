@@ -1,6 +1,6 @@
 <?php
 
-include('../controllers/get-posts.php');
+include('controllers/get-posts.php');
 
 if(!empty($postList)) {
 	session_start();
