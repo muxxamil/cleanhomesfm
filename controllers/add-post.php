@@ -6,7 +6,6 @@ if(empty($_SESSION['userid'])) {
 	die();
 }
 
-include('../defaults/config.php');
 
 if(empty($_POST['title'])) {
 	echo "Title is missing.";
@@ -42,7 +41,10 @@ if(!empty($_POST['videoLink'])) {
 		}
 	}
 }
+
+include('../defaults/config.php');
 $_POST['description'] = mysqli_real_escape_string($conn, $_POST['description']);
+
 $query = "INSERT INTO " . POSTS_TABLE . " VALUES (NULL, '$_POST[title]', '$_POST[description]', 1 , 0 , NOW(), NOW())";
 
 if($conn->query($query) === TRUE) {
@@ -61,9 +63,9 @@ if($conn->query($query) === TRUE) {
 		}
 	}
 	echo "Post has been added successfully";
-	die();
-
 }
+
+mysqli_close($conn);
 
 function uploadBase64Image($base64Str) {
 	if (preg_match('/^data:image\/(\w+);base64,/', $base64Str, $type)) {

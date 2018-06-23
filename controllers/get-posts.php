@@ -48,6 +48,8 @@ if($postResult->num_rows > 0) {
 	}
 }
 
+mysqli_close($conn);
+
 // $query = 'SELECT FOUND_ROWS()';
 // $totalCount = $conn->query($query);
 

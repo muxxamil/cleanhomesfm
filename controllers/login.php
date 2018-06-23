@@ -1,8 +1,9 @@
 <?php
 header('Content-Type: application/json');
-include_once('../defaults/config.php');
 
 if(!empty($_POST['email']) && $_POST['password']) {
+	
+	include_once('../defaults/config.php');
 
 	$query = "SELECT 
 	  *
@@ -19,8 +20,10 @@ if(!empty($_POST['email']) && $_POST['password']) {
 		$_SESSION["name"] 	= $row['name'];
 
 		echo json_encode(array('status' => 200));
-		die();
 	}
+
+	mysqli_close($conn);
+	die();
 }
 
 echo json_encode(array('status' => 400, "message" => "Invalid email or password"));
