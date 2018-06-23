@@ -3,9 +3,9 @@
 error_reporting(0);
 
 define("HOST", "localhost", true);
-define("USER", "root", true);
-define("PASSWORD", "", true);
-define("DATABASE", "blog", true);
+define("USER", "devin_blog", true);
+define("PASSWORD", "Tigger25#", true);
+define("DATABASE", "cleaning_blog", true);
 
 define("POSTS_TABLE", "posts", true);
 define("POST_INGREDIENTS_TABLE", "post_ingredients", true);
