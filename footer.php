@@ -58,7 +58,6 @@
 	</footer>
 	<!-- /Footer -->
 	<!-- External JavaScripts -->
-	<script src="js/vendor/jquery.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
 	<script src="js/vendor/slick.min.js"></script>
 	<script src="js/vendor/isotope.pkgd.min.js"></script>
