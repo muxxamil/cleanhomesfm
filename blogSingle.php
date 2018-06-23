@@ -15,7 +15,7 @@
 		<div class="container">
 			<ul class="breadcrumb">
 				<li><a href="index.php">Home</a></li>
-				<li><a href="blog-posts-masonry.php">Blog</a></li>
+				<li><a href="blog.php">Blog</a></li>
 				<li><?php echo $result[title]; ?></li>
 			</ul>
 		</div>
@@ -36,7 +36,7 @@
 	    					} 
 	    					if(array_key_exists("image", $result)) {
 ?>
-	        					<a href="blog-post-page.php?name=<?php echo str_replace(" ", "-", $result[title]) . '&id=' . $result[id]; ?>"><img src="images/blog-posts/<?php echo $result[image]; ?>"></a>
+	        					<a href="blogSingle.php?name=<?php echo str_replace(" ", "-", $result[title]) . '&id=' . $result[id]; ?>"><img src="images/blog-posts/<?php echo $result[image]; ?>"></a>
 <?php
 	    
 	    					}
@@ -149,23 +149,23 @@
 						<h3>Featured Posts</h3>
 						<div class="blog-post post-preview">
 							<div class="post-image">
-								<a href="blog-post-page.php"><img src="images/blog/blog-post-featured-1.jpg" alt=""></a>
+								<a href="blogSingle.php"><img src="images/blog/blog-post-featured-1.jpg" alt=""></a>
 							</div>
 							<ul class="post-meta">
 								<li class="post-meta-date">16 December, 2017</li>
 								<li class="pull-right post-meta-reviews"><i class="icon icon-speech-bubble"></i><span>3</span></li>
 							</ul>
-							<h4 class="post-title"><a href="blog-post-page.php">New Cleaning With Hydrogen Peroxide</a></h4>
+							<h4 class="post-title"><a href="blogSingle.php">New Cleaning With Hydrogen Peroxide</a></h4>
 						</div>
 						<div class="blog-post post-preview">
 							<div class="post-image">
-								<a href="blog-post-page.php"><img src="images/blog/blog-post-featured-2.jpg" alt=""></a>
+								<a href="blogSingle.php"><img src="images/blog/blog-post-featured-2.jpg" alt=""></a>
 							</div>
 							<ul class="post-meta">
 								<li class="post-meta-date">16 December, 2017</li>
 								<li class="pull-right post-meta-reviews"><i class="icon icon-speech-bubble"></i><span>3</span></li>
 							</ul>
-							<h4 class="post-title"><a href="blog-post-page.php">A Quick Kitchen-Cleaning Mission for Monday</a></h4>
+							<h4 class="post-title"><a href="blogSingle.php">A Quick Kitchen-Cleaning Mission for Monday</a></h4>
 						</div>
 					</div>
 				</div>

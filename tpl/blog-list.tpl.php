@@ -16,7 +16,7 @@ if(!empty($postList)) {
 <?php	    
 	    } elseif(array_key_exists("image", $value)) {
 ?>
-	        <a target=”_blank” href="blog-post-page.php?name=<?php echo str_replace(" ", "-", $value[title]) . '&id=' . $value[id]; ?>"><img src="images/blog-posts/<?php echo $value[image]; ?>"></a>
+	        <a target=”_blank” href="blogSingle.php?name=<?php echo str_replace(" ", "-", $value[title]) . '&id=' . $value[id]; ?>"><img src="images/blog-posts/<?php echo $value[image]; ?>"></a>
 <?php
 	    
 	    }
@@ -30,7 +30,7 @@ if(!empty($postList)) {
 	<div class="post-teaser">
 	    <p><?php echo substr(htmlspecialchars($value[description]) , 0 , 200) . "..."; ?></p>
 	</div>
-	<div class="post-read-more"><a target=”_blank” href="blog-post-page.php?name=<?php echo str_replace(" ", "-", $value[title]) . '&id=' . $value[id]; ?>" class="btn">Read Post</a></div>
+	<div class="post-read-more"><a target=”_blank” href="blogSingle.php?name=<?php echo str_replace(" ", "-", $value[title]) . '&id=' . $value[id]; ?>" class="btn">Read Post</a></div>
 <?php
 if(!empty($_SESSION['userid'])) {
 ?>

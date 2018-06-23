@@ -149,7 +149,7 @@
 										$('.notificationBox', $loginForm).fadeIn();
 									}
 									if(response && response.status && response.status == 200) {
-										window.location.replace("../blog-posts-masonry.php");
+										window.location.replace("../blog.php");
 									}
 								},
 								error: function error() {

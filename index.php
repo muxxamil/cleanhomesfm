@@ -26,7 +26,7 @@
 								<div class="container">
 									<h2 data-animation="zoomIn" data-animation-delay="0.5s">Giving You<br>More Time to Spend on<br>
 									What Really Matters</h2>
-									<a href="our-services.php" class="btn" data-animation="fadeInUp" data-animation-delay="0.5s">Want to know more?</a>
+									<a href="ourServices.php" class="btn" data-animation="fadeInUp" data-animation-delay="0.5s">Want to know more?</a>
 								</div>
 							</div>
 						</div>
@@ -40,7 +40,7 @@
 							<div class="vert">
 								<div class="container">
 									<h2 data-animation="zoomIn" data-animation-delay="0.5s">Family-Friendly<br>Cleaning Services</h2>
-									<a href="our-services.php" class="btn" data-animation="fadeInUp" data-animation-delay="0.5s">Want to know more?</a>
+									<a href="ourServices.php" class="btn" data-animation="fadeInUp" data-animation-delay="0.5s">Want to know more?</a>
 								</div>
 							</div>
 						</div>
@@ -147,7 +147,7 @@
 	<div class="block fullwidth-bg bg-gradient inset-35">
 		<div class="container">
 			<div class="get-banner text-center">
-				<h2>Get started with your <b>free estimate</b></h2><a target = "_blank" href="order-form.php" class="btn btn-white"><i class="icon icon-bell"></i>GET free estimate</a></div>
+				<h2>Get started with your <b>free estimate</b></h2><a target = "_blank" href="getQuote.php" class="btn btn-white"><i class="icon icon-bell"></i>GET free estimate</a></div>
 		</div>
 	</div>
 	<!--/ banner Get Started-->
@@ -229,7 +229,7 @@
 					<div class="news-prw">
 						<div class="news-prw-image">
 							<img src="images/content/news-img-1.jpg" alt="">
-							<a href="blog-post-page.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
+							<a href="blogSingle.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
 						</div>
 						<div class="news-prw-date">16 December, 2017</div>
 						<h4 class="news-prw-title">How to Clean White Items in your Home</h4>
@@ -240,7 +240,7 @@
 					<div class="news-prw">
 						<div class="news-prw-image">
 							<img src="images/content/news-img-2.jpg" alt="">
-							<a href="blog-post-page.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
+							<a href="blogSingle.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
 						</div>
 						<div class="news-prw-date">16 December, 2017</div>
 						<h4 class="news-prw-title">Five Easy Ways to Give Back</h4>
@@ -251,7 +251,7 @@
 					<div class="news-prw">
 						<div class="news-prw-image">
 							<img src="images/content/news-img-3.jpg" alt="">
-							<a href="blog-post-page.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
+							<a href="blogSingle.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
 						</div>
 						<div class="news-prw-date">16 December, 2017</div>
 						<h4 class="news-prw-title">Why is Spring Cleaning Important?</h4>
@@ -273,7 +273,7 @@
 					<div class="news-prw">
 						<div class="news-prw-image">
 							<img src="images/content/news-img-2.jpg" alt="">
-							<a href="blog-post-page.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
+							<a href="blogSingle.php" class="news-prw-link"><i class="icon-right-arrow"></i></a>
 						</div>
 						<div class="news-prw-date">16 December, 2017</div>
 						<h4 class="news-prw-title">Five Easy Ways to Give Back</h4>
@@ -305,7 +305,7 @@
 						<p>Life's Too Short to Clean Your Own Home</p>
 					</div>
 					<div class="get-banner-button">
-						<a target = "_blank" href="order-form.php" class="btn btn-white btn-lg"><i class="icon icon-bell"></i>Get An Estimate</a>
+						<a target = "_blank" href="getQuote.php" class="btn btn-white btn-lg"><i class="icon icon-bell"></i>Get An Estimate</a>
 					</div>
 				</div>
 			</div>

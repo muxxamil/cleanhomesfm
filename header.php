@@ -73,7 +73,7 @@ session_start();
 						<br>8:00am - 10:00pm</div>
 					<div class="page-header-phone text-right"><span>Call us on:</span> <span class="phone-number">780-972-7266</span></div>
 				</div>
-				<div class="quote-button-wrap"><a target = "_blank" href="order-form.php" class="btn"><i class="icon icon-bell"></i>GET A QUOTE</a></div>
+				<div class="quote-button-wrap"><a target = "_blank" href="getQuote.php" class="btn"><i class="icon icon-bell"></i>GET A QUOTE</a></div>
 				<a href="#" class="menu-toggle"><i class="icon-line-menu"></i><i class="icon-cancel"></i></a>
 			</div>
 		</div>
@@ -83,9 +83,9 @@ session_start();
 					<li class="active"><a href="index.php">HOME<span class="arrow"></span></a>
 					</li>
 					<li><a href="about.php">About Us</a></li>
-					<li><a href="our-services.php">Our Services<span class="arrow"></span></a>
+					<li><a href="ourServices.php">Our Services<span class="arrow"></span></a>
 					<li><a href="faq.php">FAQs</a></li>
-					<li><a href="blog-posts-masonry.php">Blog<span class="arrow"></span></a>
+					<li><a href="blog.php">Blog<span class="arrow"></span></a>
 					</li>
 					<li><a href="testimonials.php">Testimonials</a></li>
 					<li><a href="contact.php">Contacts</a></li>
