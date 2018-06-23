@@ -80,7 +80,7 @@ session_start();
 		<div class="page-header-menu">
 			<div class="container">
 				<ul class="menu">
-					<li <?php echo ($page_title == 'Index') ? 'class="active"' : ''; ?>><a href="index.php">HOME<span class="arrow"></span></a>
+					<li <?php echo ($page_title == 'Clean Homes FM') ? 'class="active"' : ''; ?>><a href="index.php">HOME<span class="arrow"></span></a>
 					</li>
 					<li <?php echo ($page_title == 'About Us') ? 'class="active"' : ''; ?>><a href="about.php">About Us</a></li>
 					<li <?php echo ($page_title == 'Services') ? 'class="active"' : ''; ?>><a href="ourServices.php">Our Services<span class="arrow"></span></a>
