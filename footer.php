@@ -50,7 +50,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="footer-copyright">© 2017 CleanHomesfm.</div>
+			<div class="footer-copyright">© 2018 CleanHomesfm.</div>
 			<div class="backToTop js-backToTop">
 				<i class="icon icon-right-arrow"></i>
 			</div>
