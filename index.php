@@ -1,6 +1,6 @@
 <?php
 	
-	$page_title = "Index";
+	$page_title = "Clean Homes FM";
 	include("header.php");
 
 ?>
